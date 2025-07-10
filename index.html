@@ -304,9 +304,9 @@ h1 {
     function spinTheWheel() {
       const wheel = document.getElementById("wheelContainer");
       wheel.innerHTML = "";
-      const colors = ['#f7c59f', '#ddb892', '#b08968', '#7f5539', '#3e2723', '#d4af37'];
+      const colors = ['#f7c59f', '#ddb892', '#b08968'];
       const discounts = [5, 10, 15];
-      const anglePerSlice = 360 / 6;
+      const anglePerSlice = 360 / 3;
 
       discounts.forEach((discount, i) => {
         const slice = document.createElement("div");
